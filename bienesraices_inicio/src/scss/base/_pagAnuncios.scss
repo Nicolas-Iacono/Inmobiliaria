@@ -1,0 +1,45 @@
+.lineaDeTres{
+    margin-top: 2rem;
+}
+
+// anuncio1
+
+.containerAnuncio{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+
+}
+
+.imagen-anuncio{
+    width: 70rem;
+    
+}
+
+.iconos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+    width: 70rem;
+
+}
+
+.tituloAnuncio{
+    width: 70rem;
+    display: flex;
+}
+
+.anuncio-texto>p{
+    width: 70rem;
+    text-align: justify;
+}
+.anuncio-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

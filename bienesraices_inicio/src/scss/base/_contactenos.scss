@@ -1,0 +1,22 @@
+.contacto{
+    background-image: url('/src/img/encuentra.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: $separacion;
+}
+
+.contactoTitulo{
+    color: $blanco;
+    font-weight: bold;
+}
+.contactoParrafo{
+    color: $blanco;
+}
+

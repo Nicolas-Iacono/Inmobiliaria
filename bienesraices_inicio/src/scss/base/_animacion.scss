@@ -1,0 +1,57 @@
+.cuadrado{
+    width: 5rem;
+    height: 5rem;
+    background-color: blue;
+    position: absolute;
+    animation: moveRight 1s ease-in-out 1s ;
+    
+
+    
+
+
+}
+
+@keyframes moveRight{ 
+   
+   from {
+    height: 0;
+
+   }
+   to{
+    height: 10rem;
+   }
+
+   to{
+    height: 3rem;
+   }
+
+   to{
+    height: 40rem;
+   }
+
+}
+@keyframes changeColor{
+    10%{
+        background-color: red;
+    }
+    40%{
+        background-color: violet;
+    }
+
+    70%{
+        background-color: rgb(47, 217, 255);
+    }
+}
+.bdyAnim{
+    padding: 3rem;
+    
+}
+
+.circulo{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: red;
+
+   
+}

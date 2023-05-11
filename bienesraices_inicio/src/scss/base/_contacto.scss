@@ -1,0 +1,97 @@
+.formulario{
+    width: 90rem;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.contenedorFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-enBusca{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comentariosForm{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.submit{
+    width:15rem ;
+    margin-top: 5rem;
+
+}
+
+.botonEnviar{
+    display: flex;
+    justify-content: end;
+}
+.radioForm{
+    display: flex;
+    width: 40rem;
+    justify-content: space-evenly;
+    
+}
+.fRadio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-nombreCompleto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.conjunto{
+    width: 25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.conjuntoEmail{
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    width:35rem ;
+}
+.inputEmail{
+    width: 24rem;
+}
+
+legend{
+    font-size: 2rem;
+    color: $grisOscuro;
+}
+
+label{
+    font-weight: 500;
+    text-transform: uppercase;
+
+  
+}
+
+input:not([type="submit"]),textarea{
+    padding: 1rem;
+    border-radius: 1rem;
+    border:1px solid $gris;
+}
+
+fieldset{
+    margin-top: 2rem;
+}
+textarea{
+    width: 100%;
+    resize: none;
+ 
+
+}
+
+.textAreaConjunto{
+    margin-top: 3rem;
+}
