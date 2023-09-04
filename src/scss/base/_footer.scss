@@ -1,0 +1,14 @@
+footer{
+    background-color: gray;
+    margin-top: $separacion;
+}
+
+@media(max-width:768px){
+    footer>nav{
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

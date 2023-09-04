@@ -1,0 +1,78 @@
+
+.containerPropiedad{
+    width: 40rem;
+    height: 64rem;
+    background-color: rgb(228, 228, 228);
+
+};
+
+.imagenDestacada{
+    height: 26rem;
+}
+.textoPropiedad{
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    padding: 0 1rem;
+};
+.parraProp{
+    padding: 0 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono{
+    width: 4rem;
+    height: 4rem;
+};
+
+.amenities{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 4rem;
+    margin-top: -4rem;;
+    
+}
+
+.boton{
+    width: 75%;
+    height: 3rem;
+    background-color: orange;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 1px 2px 2px black;
+}
+
+.boton:hover{
+    background-color: rgb(207, 139, 12);
+    cursor: pointer;
+}
+
+.precioProp{
+    margin-top: -2rem;
+    padding: 0 4rem;
+    color: rgb(53, 184, 36);
+}
+.propiedadesDestacadas{
+    display: flex;
+    justify-content:center;
+    gap: 2rem;
+    flex-direction: column;
+
+}
+.articulos{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+@media(max-width:768px){
+    
+    .articulos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

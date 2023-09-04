@@ -1,0 +1,22 @@
+.boton-amarillo {
+    @include boton($amarillo, flex)
+}
+
+.boton-verde {
+    @include boton ($verde, block);
+    width: 22rem;
+    box-shadow: 1px 2px 4px darken($verde,7);
+    
+}
+
+.btoContacto{
+    @include boton($amarillo, flex);
+    width:35rem;
+}
+
+.verTodas{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}

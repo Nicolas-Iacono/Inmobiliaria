@@ -1,0 +1,15 @@
+.containerNosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    gap: 3rem;
+
+}
+
+.nosotros-texto{
+    text-align: justify;
+}
+
+.logoTitulo{
+    color: $blanco;
+}
